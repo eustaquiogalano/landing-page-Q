@@ -101,3 +101,42 @@ h1 {
     font-weight: 900;
 }
 
+#random-information {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 400px;
+}
+
+#random-information > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+#text-images {
+    display: flex;
+    gap: 50px;
+}
+
+.img-illustration {
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+}
+
+.img-illustration > div {
+    border: 2px solid #3882f6;
+    height: 170px;
+    width: 170px;
+    border-radius: 12px;
+}
+
+.img-illustration > p {
+    text-align: center;
+}
